@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 20px; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina padding por defecto */
+    height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h1{
+    font-size: 3rem;
+    color: whitesmoke;
+  }
+  
+  p, li{
+    color: limegreen;
+  }
+  
+  .seccion{
+    color:limegreen;
+    font-size: 1.5rem;
+    margin: 10px;
+  }
+
+  .seccion:hover {
+    color:purple;
+    cursor: pointer;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  @media (max-width: 600px) {
+    h1{
+      font-size: 3rem;
+    }
+    p{
+      font-size: 1rem;
+    }
+    .seccion {
+      font-size: 1.5rem; /* Tamaño de fuente más grande para pantallas pequeñas */
+    }
+  
+    li {
+      font-size: 1.5rem; /* Ajuste de tamaño de lista en pantallas pequeñas */
+    }
+  }
