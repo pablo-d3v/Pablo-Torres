@@ -28,14 +28,10 @@ body {
 
 .hero h1 {
   color: green;
-  font-size: 30vw; /* Escala con el ancho de pantalla */
+  font-size: 20vw; /* Escala con el ancho de pantalla */
   text-align: justify;
   margin: 0;
   font-weight: bold;
-  background: url('green_static.gif') no-repeat center center;
-  background-size: cover;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 p{
