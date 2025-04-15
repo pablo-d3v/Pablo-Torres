@@ -2,7 +2,26 @@
     "en": {
       "name": "Pablo Torres",
       "role": "Software Engineer",
-      "sections": ["Projects", "Studies", "About me", "Contact"]
+      "sections": ["Projects", "Studies", "About me", "Contact"],
+      "projects": [
+        {
+          "title": "Mobile Registration App",
+          "my_role":" UI and UX Design, Backend",
+          "team_size": "5",
+          "period": "August 2023 - December 2023",
+          "description": "A mobile app for student registration with secure backend integration.",
+          "tools": ["Android Studio", "Kotlin"],
+          "image": "img/weather.png",
+          "link": "project1.html"
+        },
+        {
+          "title": "Task Manager",
+          "description": "An app to track and manage daily tasks efficiently.",
+          "tools": ["Android Studio", "Kotlin"],
+          "image": "img/tasks.png",
+          "link": "project2.html"
+        }
+      ]
     }
   }
   
