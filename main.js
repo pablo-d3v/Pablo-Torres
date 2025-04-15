@@ -61,7 +61,7 @@ async function loadContent() {
     } catch (error) {
         console.error('Error loading content:', error);
         elements.projectsContainer.innerHTML = `
-            <p class="error-message">⚠️ Error loading projects. Please try refreshing the page or contact me at pablotorres11001@gmail.com</p>
+            <p class="error-message">⚠️ Error loading portfolio. Please try refreshing the page or contact me at pablotorres11001@gmail.com</p>
         `;
     }
 }
