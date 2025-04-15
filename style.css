@@ -1,49 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
 body {
-    background-color: black;
-    font-family: Arial, sans-serif;
-    margin: 20px; /* Elimina márgenes por defecto */
-    padding: 0; /* Elimina padding por defecto */
-    height: 100vh; /* Asegura que el body ocupe toda la altura de la pantalla */
-    display: flex;
-    flex-direction: column;
-  }
-  
-  h1{
-    font-size: 3rem;
-    color: whitesmoke;
-  }
-  
-  p, li{
-    color: limegreen;
-  }
-  
-  .seccion{
-    color:limegreen;
-    font-size: 1.5rem;
-    margin: 10px;
-  }
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 20px; /* Elimina márgenes por defecto */
+  padding: 0; /* Elimina padding por defecto */
+  display: flex;
+  flex-direction: column;
+}
 
-  .seccion:hover {
-    color:purple;
-    cursor: pointer;
-  }
-  
-  a {
-    text-decoration: none;
-  }
+/* hero */
 
-  @media (max-width: 600px) {
-    h1{
-      font-size: 3rem;
-    }
-    p{
-      font-size: 1rem;
-    }
-    .seccion {
-      font-size: 1.5rem; /* Tamaño de fuente más grande para pantallas pequeñas */
-    }
-  
-    li {
-      font-size: 1.5rem; /* Ajuste de tamaño de lista en pantallas pequeñas */
-    }
-  }
+.hero {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;  /* Apila verticalmente */
+  justify-content: center; /* Centrado vertical */
+}
+
+.hero h1 {
+  color: green;
+  font-size: 30vw; /* Escala con el ancho de pantalla */
+  text-align: justify;
+  margin: 0;
+  font-weight: bold;
+  background: url('green_static.gif') no-repeat center center;
+  background-size: cover;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p{
+  color: green;
+}
+
+/* botones */
+
+.button-bar {
+  display: flex;
+  width: 100%;
+  flex-direction: column;   /* Apilar verticalmente */
+  align-items: stretch;     /* Estira los botones para que ocupen todo el ancho */
+  bottom: 20px;             /* Ajustar desde la parte inferior */
+  left: 50%;
+  padding: 10px;
+  list-style: none;
+  margin: 0;
+}
+
+.button-bar button {
+  background-color: black;
+  color: green;
+  border: 2px solid green;
+  padding: 15px 25px;
+  margin: 10px 0;       /* Espaciado entre botones */
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;          /* Hacer que los botones ocupen todo el ancho disponible */
+}
+
+.button-bar button:hover {
+  background-color: green;
+  color: black;
+}
+
+.button-bar a {
+  text-decoration: none;
+}
