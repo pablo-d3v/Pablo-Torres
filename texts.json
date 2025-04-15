@@ -11,14 +11,14 @@
           "period": "August 2023 - December 2023",
           "description": "A mobile app for student registration with secure backend integration.",
           "tools": ["Android Studio", "Kotlin"],
-          "image": "img/weather.png",
+          "image": "images/Space_Code.png",
           "link": "project1.html"
         },
         {
           "title": "Task Manager",
           "description": "An app to track and manage daily tasks efficiently.",
           "tools": ["Android Studio", "Kotlin"],
-          "image": "img/tasks.png",
+          "image": "images/Space_Code.png",
           "link": "project2.html"
         }
       ]

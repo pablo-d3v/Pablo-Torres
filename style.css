@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color:green;
 }
 
 body, html {
@@ -38,7 +39,7 @@ p{
   color: green;
 }
 
-/* botones */
+/* buttons */
 
 .button-bar {
   display: flex;
@@ -56,6 +57,7 @@ p{
   background-color: black;
   color: green;
   border: 2px solid green;
+  border-radius: 15px;
   padding: 15px 25px;
   margin: 10px 0;       /* Espaciado entre botones */
   cursor: pointer;
@@ -71,3 +73,29 @@ p{
 .button-bar a {
   text-decoration: none;
 }
+
+/* Projects */
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #111;
+  border: 2px solid green;
+  border-radius: 15px;
+  margin: 15px 0;
+  padding: 15px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
