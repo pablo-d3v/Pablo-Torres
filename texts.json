@@ -1,27 +1,56 @@
 {
-    "en": {
-      "name": "Pablo Torres",
-      "role": "Software Engineer",
-      "sections": ["Projects", "Studies", "About me", "Contact"],
-      "projects": [
-        {
-          "title": "Mobile Registration App",
-          "my_role":" UI and UX Design, Backend",
-          "team_size": "5",
-          "period": "August 2023 - December 2023",
-          "description": "A mobile app for student registration with secure backend integration.",
-          "tools": ["Android Studio", "Kotlin"],
-          "image": "images/Space_Code.png",
-          "link": "project1.html"
+  "en": {
+    "name": "Pablo Torres",
+    "role": "Software Engineer",
+    "sections": ["Projects", "Studies", "About me", "Contact"],
+    "projects": [
+      {
+        "title": "Responsive Website",
+        "my_role":"UX Design, Frontend Development, Backend Development, Full-Stack Integration",
+        "team_size": "2",
+        "period": "December 2023 - February 2024",
+        "description": "A marketing website was developed for a company specializing in industrial ovens and bending machines. It includes a main menu, sector-specific product catalogs, and contact pages to streamline client interaction and product exploration.",
+        "tools": {
+          "development": ["VS Code", "Git"],
+          "frontend": ["HTML5", "CSS", "JavaScript", "React"],
+          "backend": ["Node.js"],
+          "data": ["JSON"],
+          "design": ["Figma"]
         },
-        {
-          "title": "Task Manager",
-          "description": "An app to track and manage daily tasks efficiently.",
-          "tools": ["Android Studio", "Kotlin"],
-          "image": "images/Space_Code.png",
-          "link": "project2.html"
-        }
-      ]
-    }
+        "images": [
+          "images/Space_Code.png", 
+          "images/Space_Code.png"
+        ],
+        "link": "project1.html"
+      },
+      {
+        "title": "Mobile Registration App",
+        "my_role": "UX/UI Design, Mobile Development, Backend Integration, Security Implementation, Unit/Integration/UI Testing",
+        "team_size": "5",
+        "period": "August 2023 - December 2023",
+        "description": "A community dining hall management app streamlined beneficiary registration, family attendance tracking, and issue reporting. It included QR code integration, real-time status updates (paid/donated portions), and administrative dashboards for dining hall oversight.",
+        "tools": {
+          "development": ["Android Studio", "Git"],
+          "frontend": ["Kotlin"],
+          "backend": ["Firebase"],
+          "data": ["SQLite", "JSON"],
+          "design": ["Figma"],
+          "architecture": ["MVVM"],
+          "practices": ["Agile", "Scrum"]
+        },
+        "images": [
+          "images/Space_Code.png", 
+          "images/Space_Code.png"
+        ],
+        "link": "project1.html"
+      },
+      {
+        "title": "Task Manager",
+        "description": "An app to track and manage daily tasks efficiently.",
+        "tools": ["Android Studio", "Kotlin"],
+        "image": "images/Space_Code.png",
+        "link": "project2.html"
+      }
+    ]
   }
-  
+}
