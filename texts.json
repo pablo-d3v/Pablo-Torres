@@ -5,13 +5,19 @@
     "sections": ["Projects", "Studies", "About me", "Contact"],
     "projects": [
       {
+        "title": "VR Kinetics"
+      },
+      {
+        "title": "AWS Call Center"
+      },
+      {
         "title": "Responsive Website",
         "my_role":"UX Design, Frontend Development, Backend Development, Full-Stack Integration",
         "team_size": "2",
         "period": "December 2023 - February 2024",
         "description": "A marketing website was developed for a company specializing in industrial ovens and bending machines. It includes a main menu, sector-specific product catalogs, and contact pages to streamline client interaction and product exploration.",
         "tools": {
-          "development": ["VS Code", "Git"],
+          "development": ["Visual Studio", "VS Code", "Git"],
           "frontend": ["HTML5", "CSS", "JavaScript", "React"],
           "backend": ["Node.js"],
           "data": ["JSON"],
@@ -32,7 +38,7 @@
         "tools": {
           "development": ["Android Studio", "Git"],
           "frontend": ["Kotlin"],
-          "backend": ["Firebase"],
+          "backend": ["Firebase", "AWS EC2"],
           "data": ["SQLite", "JSON"],
           "design": ["Figma"],
           "architecture": ["MVVM"],
@@ -45,12 +51,26 @@
         "link": "project1.html"
       },
       {
-        "title": "Task Manager",
-        "description": "An app to track and manage daily tasks efficiently.",
-        "tools": ["Android Studio", "Kotlin"],
-        "image": "images/Space_Code.png",
+        "title": "Unity Educational Videogame",
+        "my_role": "Game Design, Programming, Asset Integration, QA Testing, Performance Optimization",
+        "team_size": "5",
+        "period": "February 2023 - May 2023",
+        "description": "This educational Unity game blends programming challenges (multiple-choice questions, language selection) with competitive leaderboards to enhance coding skills through engaging gameplay. Built with Unity for core mechanics and integrated with PHP APIs/JSON for user authentication, stat tracking, and leaderboard updates, it ensures a seamless mix of interactivity and learning.",
+        "tools": {
+          "development": ["Unity Engine", "VS Code", "Git"],
+          "scripting": ["C#"],
+          "backend": ["PHP", "MySQL", "Xampp (Apache)"],
+          "data": ["JSON"],
+          "architecture": ["MVC"],
+          "practices": ["Agile", "Playtesting"]
+        },
+        "images": [
+          "images/Space_Code.png", 
+          "images/Space_Code.png"
+        ],
         "link": "project2.html"
       }
-    ]
+    ],
+    "about_me": "My name is Pablo David Torres Granados, and I am currently studying in the 8th semester of B.S. in Computer Science and Technology (ITC) at the Monterrey Institute of Technology and Higher Education. Since a young age, I have felt a deep passion for technology, coding, innovative system design, and creating amazing user experiences. Along my journey, I have participated in a variety of projects, including personal initiatives, academic endeavors, and work projects. These experiences have equipped me with a solid set of skills and knowledge, which I am excited to apply and further develop in a professional environment. My goal is to join a leading enterprise in the market, where I can continue learning daily and contribute with enthusiasm and dedication."
   }
 }
