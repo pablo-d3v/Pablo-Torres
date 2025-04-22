@@ -5,10 +5,12 @@
     "sections": ["Projects", "Studies", "About me", "Contact"],
     "projects": [
       {
-        "title": "VR Kinetics"
+        "title": "VR Kinetics",
+        "preview" :"images/Space_Code.png"
       },
       {
-        "title": "AWS Call Center"
+        "title": "AWS Call Center",
+        "preview" :"images/Space_Code.png"
       },
       {
         "title": "Responsive Website",
@@ -23,6 +25,7 @@
           "data": ["JSON"],
           "design": ["Figma"]
         },
+        "preview" :"images/Space_Code.png",
         "images": [
           "images/Space_Code.png", 
           "images/Space_Code.png"
@@ -44,6 +47,7 @@
           "architecture": ["MVVM"],
           "practices": ["Agile", "Scrum"]
         },
+        "preview" :"images/Space_Code.png",
         "images": [
           "images/Space_Code.png", 
           "images/Space_Code.png"
@@ -64,6 +68,7 @@
           "architecture": ["MVC"],
           "practices": ["Agile", "Playtesting"]
         },
+        "preview" :"images/Space_Code.png",
         "images": [
           "images/Space_Code.png", 
           "images/Space_Code.png"

@@ -1,8 +1,24 @@
+:root {
+  /* Colors */
+  --primary-color: black;      /* Main brand color */
+  --secondary-color: gray;    /* Secondary color */
+  --accent-color: green;      /* Accent/highlight color */
+  --background-color: white;   /* Page background */
+  --text-color: black;         /* Default text color */
+
+  /* Spacing */
+  --spacing-unit: 1rem;          /* Base unit for margins/padding */
+  --max-page-width: 1200px;      /* Max content width */
+
+  /* Typography */
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Open Sans', sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color:green;
 }
 
 body, html {
@@ -10,7 +26,7 @@ body, html {
 }
 
 body {
-  background-color: black;
+  background-color: var(--background-color);
   font-family: Arial, sans-serif;
   margin: 20px; /* Elimina márgenes por defecto */
   padding: 0; /* Elimina padding por defecto */
@@ -28,7 +44,7 @@ body {
 }
 
 .hero h1 {
-  color: green;
+  color:var(--accent-color);
   font-size: 20vw; /* Escala con el ancho de pantalla */
   text-align: justify;
   margin: 0;
@@ -36,7 +52,7 @@ body {
 }
 
 p{
-  color: green;
+  color: var(--secondary-color);
 }
 
 /* buttons */
@@ -54,9 +70,9 @@ p{
 }
 
 .button-bar button {
-  background-color: black;
-  color: green;
-  border: 2px solid green;
+  background-color: var(--background-color);
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
   border-radius: 15px;
   padding: 15px 25px;
   margin: 10px 0;       /* Espaciado entre botones */
@@ -66,8 +82,8 @@ p{
 }
 
 .button-bar button:hover {
-  background-color: green;
-  color: black;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
 }
 
 .button-bar a {
@@ -83,8 +99,8 @@ p{
 }
 
 .project-card {
-  background-color: #111;
-  border: 2px solid green;
+  background-color: var(--background-color);
+  border: 2px solid var(--accent-color);
   border-radius: 15px;
   margin: 15px 0;
   padding: 15px;

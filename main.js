@@ -26,10 +26,10 @@ const elements = {
 };
 
 // Función para crear tarjetas de proyectos
-const createProjectCard = ({ title, image }) => `
+const createProjectCard = ({ title, preview }) => `
     <div class="project-card">
         <h3>${title}</h3>
-        <img src="${image}" alt="${title} - Project preview" loading="lazy">
+        <img src="${preview}" alt="${title} - Project preview" loading="lazy">
     </div>
 `;
 
