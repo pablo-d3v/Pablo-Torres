@@ -114,6 +114,13 @@ p{
   width: 100%;
   max-width: none; /* Remove fixed max-width */
   text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .project-card img {

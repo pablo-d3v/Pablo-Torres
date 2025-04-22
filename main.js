@@ -26,8 +26,8 @@ const elements = {
 };
 
 // Función para crear tarjetas de proyectos
-const createProjectCard = ({ title, preview }) => `
-    <div class="project-card">
+const createProjectCard = ({ title, preview, slug}) => `
+    <div class="project-card" data-slug="${slug}">
         <h3>${title}</h3>
         <img src="${preview}" alt="${title} - Project preview" loading="lazy">
     </div>
@@ -37,6 +37,7 @@ const createProjectCard = ({ title, preview }) => `
 async function loadContent() {
     try {
         const response = await fetch('texts.json');
+        
         if (!response.ok) throw new Error('Network response was not OK');
         
         const data = await response.json();
@@ -54,9 +55,18 @@ async function loadContent() {
             }
         });
         
-        // Insertar proyectos
+        // Insert projects
         const projectsHTML = content.projects.map(createProjectCard).join('');
         elements.projectsContainer.innerHTML = projectsHTML;
+
+        // Add click handlers to project cards
+        elements.projectsContainer.addEventListener('click', (e) => {
+            const projectCard = e.target.closest('.project-card');
+            if (projectCard) {
+                const slug = projectCard.dataset.slug;
+                window.location.href = `project-template.html?project=${slug}`;
+            }
+        });
         
     } catch (error) {
         console.error('Error loading content:', error);

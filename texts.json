@@ -5,14 +5,17 @@
     "sections": ["Projects", "Studies", "About me", "Contact"],
     "projects": [
       {
+        "slug": "vr-kinetics",
         "title": "VR Kinetics",
         "preview" :"images/Space_Code.png"
       },
       {
+        "slug": "aws-call-center",
         "title": "AWS Call Center",
         "preview" :"images/Space_Code.png"
       },
       {
+        "slug": "responsive-website",
         "title": "Responsive Website",
         "my_role":"UX Design, Frontend Development, Backend Development, Full-Stack Integration",
         "team_size": "2",
@@ -33,6 +36,7 @@
         "link": "project1.html"
       },
       {
+        "slug": "Android-registration-app",
         "title": "Android Registration App",
         "my_role": "UX/UI Design, Mobile Development, Backend Integration, Security Implementation, Unit/Integration/UI Testing",
         "team_size": "5",
@@ -55,6 +59,7 @@
         "link": "project1.html"
       },
       {
+        "slug": "unity-educational-videogame",
         "title": "Unity Educational Videogame",
         "my_role": "Game Design, Programming, Asset Integration, QA Testing, Performance Optimization",
         "team_size": "5",
