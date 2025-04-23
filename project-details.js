@@ -20,7 +20,7 @@ function loadProjectDetails() {
     const container = document.getElementById('project-content');
     
     container.innerHTML = `
-      <h1>${project.title}</h1>
+      <h2>${project.title}</h2>
       <div class="project-meta">
         <div class="meta-item">
           <h3>My Role</h3>
