@@ -17,7 +17,7 @@ function loadProjectDetails() {
   
   // Render project content
   function renderProject(project) {
-    const container = document.getElementById('project-details');
+    const container = document.getElementById('project-content');
     
     container.innerHTML = `
       <h1>${project.title}</h1>
