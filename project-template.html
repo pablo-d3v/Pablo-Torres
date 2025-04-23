@@ -2,22 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>{{title}}</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Project Details</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>{{title}}</h1>
-  </header>
-  <main>
-    <section class="project-details">
-      <h2>Description</h2>
-      <p>{{description}}</p>
-      <h2>Tools Used</h2>
-      <ul class="tools-list">
-        {{tools}}
-      </ul>
-    </section>
-  </main>
+  <nav class="button-bar">
+    <a href="index.html">← Back to Portfolio</a>
+  </nav>
+
+  <main id="project-details"></main>
+
+  <!-- Load the external JS file -->
+  <script src="project-details.js"></script>
 </body>
 </html>
