@@ -2,7 +2,7 @@
   "en": {
     "name": "Pablo Torres",
     "role": "Software Engineer",
-    "sections": ["Projects", "Studies", "About me", "Contact"],
+    "sections": ["Projects", "Studies", "Contact"],
     "projects": [
       {
         "slug": "vr-kinetics",

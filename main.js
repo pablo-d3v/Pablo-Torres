@@ -8,7 +8,6 @@ const SELECTORS = {
         1: '#section1',
         2: '#section2',
         3: '#section3',
-        4: '#section4'
     }
 };
 
