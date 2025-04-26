@@ -1,83 +1,104 @@
-
 /* PROJECT PAGES */
 
 /*Back to Portfolio*/
 .project .return-button a {
-    color: var(--accent-color);
-    text-decoration: none;
-  }
+  font-size: var(--regular-text-size);
+  color: var(--accent-color);
+  text-decoration: none;
+}
   
-  .return-button a:hover {
-    opacity: 0.8;
-  }
+.project .return-button a:hover {
+  font-size: var(--regular-text-size);
+  opacity: 0.8;
+}
+
+/* Project Texts*/
+.project h1{
+  font-size: var(--Heading-1-size);
+  text-align: center;
+}
+
+.project h2{
+  font-size: var(--Heading-2-size);
+  color: var(--accent-color);
+}
+
+.project h3{
+  font-size: var(--Heading-3-size);
+  color: var(--accent-color);
+}
+
+.project p {
+  font-size: var(--regular-text-size);
+}
+
   
-  .project h1 {
-    margin-top: 1rem;
-    padding-top: 1rem;
-  }
+/* Preview Image */
+.project .main-preview {
+  width: 100%;
+  max-height: 500px;
+  object-fit: contain;
+  margin: 2rem 0;
+  border-radius: 15px;
+}
+
+/* Description*/
+.project .project-description {
+  margin: 2rem 0;
+  line-height: 1.6;
+}
+
+/* Role, Tema, Period */
+.project  .project-meta {
+  margin: 2rem 0;
+  line-height: 1.6;
+}
+
+.project  .project-meta .meta-label {
+  color: var(--accent-color);
+  font-weight: bold; 
+}
+
+/* Tools */
+.project .project-tools{
+  margin: 3rem 0;
+}
+
+.project .tool-category {
+  margin: 1rem 0;
+  padding: 1.5rem;
+  background: var(--background-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 15px;
+}
   
-  .project  .project-meta {
-    display: flex;
-    flex-direction: column;          /* Stack children vertically */
-    gap: 2rem;                       /* Spacing between rows */
-    margin: 2rem 0;
-  }
-  
-  .project .meta-item {
-    background: var(--background-color);
-    border: 2px solid var(--accent-color);
-    border-radius: 15px;
-    padding: 1.5rem;
-  }
-  
-  .project .main-preview {
-    width: 100%;
-    max-height: 500px;
-    object-fit: contain;
-    margin: 2rem 0;
-    border-radius: 15px;
-  }
-  
-  .project .project-description {
-    margin: 3rem 0;
-    line-height: 1.6;
-  }
-  
-  .project .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-  }
-  
-  .project .gallery-item {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .project .tool-category {
-    margin: 2rem 0;
-    padding: 1.5rem;
-    background: var(--background-color);
-    border: 2px solid var(--accent-color);
-    border-radius: 15px;
-  }
-  
-  .project .tool-category ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  
-  .project .tool-category li {
-    background: var(--accent-color);
-    color: var(--background-color);
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.9em;
-  }
+.project .tool-category ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project .tool-category li {
+  background: var(--accent-color);
+  color: var(--background-color);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9em;
+}
+
+.project .gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.project .gallery-item {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

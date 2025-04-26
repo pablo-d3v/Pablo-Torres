@@ -15,11 +15,12 @@
     --font-secondary: 'Open Sans', sans-serif;
 
     /*Text Size*/
+    font-size: 16px; /* font base size*/
     --title-size: clamp(2rem, 20vw, 8rem); /* Min: 2rem, Ideal: 20vw, Max: 8rem */
-    --subtitle-size: 1rem;
-    --Heading-1-size: 2rem;
-    --Heading-2-size: 1.5rem;
-    --Heading-3-size: 1.125rem;
-    --regular-text-size: 1rem;
-
+    --subtitle-size: clamp(1rem, 2.5vw, 1.25rem);
+    --Heading-1-size: clamp(2rem, 10vw, 5rem);
+    --Heading-2-size: clamp(1.5rem, 5vw, 2.5rem);
+    --Heading-3-size: clamp(1.125rem, 3vw, 1.5rem);
+    --button-text-size: clamp(1rem, 2.5vw, 1.25rem);
+    --regular-text-size: clamp(1rem, 2.5vw, 1.25rem);
 }

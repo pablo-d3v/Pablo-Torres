@@ -20,21 +20,8 @@ function loadProjectDetails() {
     const container = document.getElementById('project-content');
     
     container.innerHTML = `
-      <h2>${project.title}</h2>
-      <div class="project-meta">
-        <div class="meta-item">
-          <h3>My Role</h3>
-          <p>${project.my_role}</p>
-        </div>
-        <div class="meta-item">
-          <h3>Team Size</h3>
-          <p>${project.team_size} people</p>
-        </div>
-        <div class="meta-item">
-          <h3>Period</h3>
-          <p>${project.period}</p>
-        </div>
-      </div>
+      <h1>${project.title}</h1>
+
   
       <img src="${project.preview}" alt="${project.title} Preview" class="main-preview">
   
@@ -42,6 +29,18 @@ function loadProjectDetails() {
         <h2>Project Overview</h2>
         <p>${project.description}</p>
       </section>
+
+      <div class="project-meta">
+        <div class="meta-item">
+          <p><span class="meta-label">My Role:</span> ${project.my_role}</p>
+        </div>
+        <div class="meta-item">
+          <p><span class="meta-label">Team Size:</span> ${project.team_size} people</p>
+        </div>
+        <div class="meta-item">
+          <p><span class="meta-label">Period:</span> ${project.period}</p>
+        </div>
+      </div>
   
       <section class="project-tools">
         <h2>Technical Stack</h2>
