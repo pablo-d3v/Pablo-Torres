@@ -15,10 +15,11 @@
     --font-secondary: 'Open Sans', sans-serif;
 
     /*Text Size*/
-    --Title: ;
-    --subTitle: ;
-    --Heading-1: ;
-    --Heading-1: ;
-    --regular-text: ;
+    --title-size: clamp(2rem, 20vw, 8rem); /* Min: 2rem, Ideal: 20vw, Max: 8rem */
+    --subtitle-size: 1rem;
+    --Heading-1-size: 2rem;
+    --Heading-2-size: 1.5rem;
+    --Heading-3-size: 1.125rem;
+    --regular-text-size: 1rem;
 
 }
