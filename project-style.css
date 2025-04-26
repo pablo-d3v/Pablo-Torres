@@ -22,6 +22,7 @@
 .project h2{
   font-size: var(--Heading-2-size);
   color: var(--accent-color);
+  margin-bottom: var(--spacing-small);
 }
 
 .project h3{
@@ -33,6 +34,9 @@
   font-size: var(--regular-text-size);
 }
 
+.project li{
+  font-size: var(--pill-text-size);
+  }
   
 /* Preview Image */
 .project .main-preview {
@@ -46,19 +50,21 @@
 /* Description*/
 .project .project-description {
   text-align: justify;
-  margin-bottom: var(--spacing-large);
+  margin-bottom: var(--spacing-medium);
   line-height: 1.6;
 }
 
 /* Role, Tema, Period */
 .project  .project-meta {
+  display: flex;
+  flex-direction: column;
   margin-bottom: var(--spacing-large);
-  line-height: 1.6;
 }
 
 .project  .project-meta .meta-label {
   color: var(--accent-color);
   font-weight: bold; 
+  
 }
 
 /* Tools */
@@ -68,18 +74,18 @@
 
 .project .tool-category {
   margin-bottom: var(--spacing-small);
-  padding: 1.5rem;
+  padding: var(--spacing-small);
   background: var(--background-color);
   border: 2px solid var(--accent-color);
   border-radius: 15px;
 }
   
 .project .tool-category ul {
-  list-style: none;
-  padding: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  gap: 0.25rem;
 }
 
 .project .tool-category li {
@@ -87,7 +93,6 @@
   color: var(--background-color);
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  font-size: 0.9em;
 }
 
 
