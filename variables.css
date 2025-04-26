@@ -7,12 +7,9 @@
     --text-color: black;
   
     /* Spacing */
-    --spacing-unit: 1rem;          /* Base unit for margins/padding */
-    --max-page-width: 1200px;      /* Max content width */
-  
-    /* Typography */
-    --font-primary: 'Roboto', sans-serif;
-    --font-secondary: 'Open Sans', sans-serif;
+    --spacing-large: 6rem;
+    --spacing-medium: 3rem;
+    --spacing-small: 0.5rem;
 
     /*Text Size*/
     font-size: 16px; /* font base size*/
@@ -23,4 +20,8 @@
     --Heading-3-size: clamp(1.125rem, 3vw, 1.5rem);
     --button-text-size: clamp(1rem, 2.5vw, 1.25rem);
     --regular-text-size: clamp(1rem, 2.5vw, 1.25rem);
+
+    /* Typography */
+    --font-primary: 'Roboto', sans-serif;
+    --font-secondary: 'Open Sans', sans-serif;
 }
