@@ -25,7 +25,10 @@ function renderProject(project) {
     <h1>${project.title}</h1>
 
 
-    <img src="../${project.preview}" alt="${project.title} Preview" class="main-preview" data-lightbox>
+    <img src="../${project.preview}" 
+    alt="${project.title} Preview" 
+    data-lightbox
+    class="main-preview">
 
     <section class="project-description">
       <h2>Project Overview</h2>
@@ -58,7 +61,10 @@ function renderProject(project) {
       <h2>Screenshots</h2>
       <div class="gallery-grid">
         ${project.images.map(img => `
-          <img src="${img}" alt="Project screenshot" class="gallery-item">
+          <img src="../${img}" 
+          data-lightbox 
+          alt="Project screenshot" 
+          class="gallery-item">
         `).join('')}
       </div>
     </section>

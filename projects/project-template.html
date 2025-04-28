@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../variables.css">
   <link rel="stylesheet" href="project-style.css">
+  <link rel="stylesheet" href="../lightbox/lightbox.css">
   <script type="module" src="project-details.js"></script>
 </head>
 <body class="project">
@@ -15,6 +16,10 @@
 
   <main id="project-content"></main>
 
-  <!-- Load the external JS file -->
+  <div class="lightbox" id="lightbox">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-image" id="lightbox-img">
+  </div>
+
 </body>
 </html>
