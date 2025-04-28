@@ -5,7 +5,7 @@ function loadProjectDetails() {
     const projectSlug = urlParams.get('project');
   
     // 2. Fetch Project Data
-    fetch('texts.json')
+    fetch('../texts.json')
       .then(response => response.json())
       .then(data => {
         const project = data.en.projects.find(p => p.slug === projectSlug);
@@ -23,7 +23,7 @@ function loadProjectDetails() {
       <h1>${project.title}</h1>
 
   
-      <img src="${project.preview}" alt="${project.title} Preview" class="main-preview">
+      <img src="../${project.preview}" alt="${project.title} Preview" class="main-preview">
   
       <section class="project-description">
         <h2>Project Overview</h2>
@@ -56,7 +56,7 @@ function loadProjectDetails() {
         <h2>Screenshots</h2>
         <div class="gallery-grid">
           ${project.images.map(img => `
-            <img src="${img}" alt="Project screenshot" class="gallery-item">
+            <img src="../${img}" alt="Project screenshot" class="gallery-item">
           `).join('')}
         </div>
       </section>
