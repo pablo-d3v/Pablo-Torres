@@ -15,8 +15,8 @@
         "preview" :"images/Space_Code.png"
       },
       {
-        "slug": "responsive-website",
-        "title": "Responsive Website",
+        "slug": "business-website",
+        "title": "Business Website",
         "my_role":"UX Design, Frontend Development, Backend Development, Full-Stack Integration",
         "team_size": "2",
         "period": "December 2023 - February 2024",
@@ -24,14 +24,17 @@
         "tools": {
           "development": ["Visual Studio", "VS Code", "Git"],
           "frontend": ["HTML5", "CSS", "JavaScript", "React"],
-          "backend": ["Node.js"],
+          "backend": ["Node.js", "PHP"],
           "data": ["JSON"],
           "design": ["Figma"]
         },
         "preview" :"images/Space_Code.png",
         "images": [
-          "images/Space_Code.png", 
-          "images/Space_Code.png"
+          "images/bw/rw_001.png",
+          "images/bw/rw_002.png",
+          "images/bw/rw_003.png",
+          "images/bw/rw_004.png",
+          "images/bw/rw_005.png"
         ],
         "link": "project1.html"
       },
