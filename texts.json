@@ -51,10 +51,11 @@
           "architecture": ["MVVM"],
           "practices": ["Agile", "Scrum"]
         },
-        "preview" :"images/Space_Code.png",
+        "preview" :"images/ara/ara_001.png",
         "images": [
-          "images/Space_Code.png", 
-          "images/Space_Code.png"
+          "images/ara/ara_002.png",
+          "images/ara/ara_003.png",
+          "images/ara/ara_004.png"
         ],
         "link": "project1.html"
       },
@@ -73,10 +74,13 @@
           "architecture": ["MVC"],
           "practices": ["Agile", "Playtesting"]
         },
-        "preview" :"images/Space_Code.png",
+        "preview" :"images/uev/uev_001.png",
         "images": [
-          "images/Space_Code.png", 
-          "images/Space_Code.png"
+          "images/uev/uev_002.png",
+          "images/uev/uev_003.png",
+          "images/uev/uev_004.png",
+          "images/uev/uev_005.png",
+          "images/uev/uev_006.png"
         ],
         "link": "project2.html"
       }
