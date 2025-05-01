@@ -2,8 +2,7 @@
 My Personal Portfolio
 
 # ToDo
-- Contact
-- nav bar Sticky
 - Studies
+- nav bar Sticky
 - Change proyects-template.html title
 - Images' lightbox
