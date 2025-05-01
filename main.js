@@ -19,8 +19,7 @@ const elements = {
     sectionButtons: {
         1: document.querySelector(SELECTORS.sectionButtons[1]),
         2: document.querySelector(SELECTORS.sectionButtons[2]),
-        3: document.querySelector(SELECTORS.sectionButtons[3]),
-        4: document.querySelector(SELECTORS.sectionButtons[4])
+        3: document.querySelector(SELECTORS.sectionButtons[3])
     }
 };
 

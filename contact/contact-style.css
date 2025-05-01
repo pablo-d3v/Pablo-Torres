@@ -1,0 +1,60 @@
+/* Contact Page Styles */
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .contact-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    flex: 1;
+  }
+  
+  .contact-title {
+    font-size: var(--Heading-1-size);
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .contact-items {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+  
+  .contact-card {
+    background: var(--background-color);
+    border: 2px solid var(--accent-color);
+    border-radius: 15px;
+    padding: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .contact-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact-card a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .contact-card h3 {
+    color: var(--accent-color);
+    margin-bottom: 0.5rem;
+    font-size: var(--Heading-3-size);
+  }
+  
+  .contact-card p {
+    color: var(--text-color);
+    font-size: var(--regular-text-size);
+  }
+  
+  @media (max-width: 768px) {
+    .contact-items {
+      grid-template-columns: 1fr;
+    }
+  }

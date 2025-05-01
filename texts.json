@@ -90,9 +90,24 @@
     ],
     "contact": [
       {
-        "Phone": "+ 52 55 1653 4146",
-        "linkedin":"www.linkedin.com/in/pablo-d-torres",
-        "E-mail":"pablotorres11001@gmail.com"
+        "title": "Get in Touch",
+        "items": [
+          {
+            "type": "Phone",
+            "value": "+52 55 1653 4146",
+            "link": "tel:+525516534146"
+          },
+          {
+            "type": "LinkedIn",
+            "value": "linkedin.com/in/pablo-d-torres",
+            "link": "https://www.linkedin.com/in/pablo-d-torres"
+          },
+          {
+            "type": "Email",
+            "value": "pablotorres11001@gmail.com",
+            "link": "mailto:pablotorres11001@gmail.com"
+          }
+        ]
       }
     ],
     "about_me": "My name is Pablo David Torres Granados, and I am currently studying in the 8th semester of B.S. in Computer Science and Technology (ITC) at the Monterrey Institute of Technology and Higher Education. Since a young age, I have felt a deep passion for technology, coding, innovative system design, and creating amazing user experiences. Along my journey, I have participated in a variety of projects, including personal initiatives, academic endeavors, and work projects. These experiences have equipped me with a solid set of skills and knowledge, which I am excited to apply and further develop in a professional environment. My goal is to join a leading enterprise in the market, where I can continue learning daily and contribute with enthusiasm and dedication."
