@@ -27,7 +27,7 @@
   
   .contact-card {
     background: var(--background-color);
-    border: 2px solid var(--accent-color);
+    border: none;
     border-radius: 15px;
     padding: 1.5rem;
     transition: transform 0.3s ease;
