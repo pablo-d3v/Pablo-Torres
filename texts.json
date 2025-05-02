@@ -88,6 +88,29 @@
         "link": "project2.html"
       }
     ],
+    "studies": {
+      "title": "Academic & Professional Journey",
+      "timeline": [
+        {
+          "date": "2021 - Present",
+          "title": "B.S. in Computer Science",
+          "institution": "Monterrey Institute of Technology",
+          "description": "Currently in 8th semester with focus on AI and software engineering."
+        },
+        {
+          "date": "2020",
+          "title": "High School Diploma",
+          "institution": "Instituto Andes",
+          "description": "Graduated with honors in scientific-humanities track."
+        },
+        {
+          "date": "2023",
+          "title": "AWS Certification",
+          "institution": "Amazon Web Services",
+          "description": "AWS Certified Developer - Associate level."
+        }
+      ]
+    },
     "contact": {
       "title": "Get in Touch",
       "items": [
