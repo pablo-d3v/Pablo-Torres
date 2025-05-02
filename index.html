@@ -7,6 +7,10 @@
   <link rel="stylesheet" href="variables.css">
   <link rel="stylesheet" href="style.css">
   <script defer src="main.js"></script>
+  <script type="module">
+    import { Paths } from './config.js';
+    document.write(`<link rel="stylesheet" href="${Paths.css}">`);
+  </script>
 </head>
 <body>
 
@@ -25,6 +29,7 @@
       <li><a href="./contact/contact.html"><button id="section3" class="seccion"></button></a></li>
     </ul>
   </nav>
+
 
   
   <!-- PROJECTs -->
