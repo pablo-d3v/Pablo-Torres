@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Pablo Torres - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="variables.css">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./contact/contact-style.css">
   <script defer src="main.js"></script>
 </head>
 <body>
@@ -15,11 +18,20 @@
 
   <div class="slider">
     <section id="home" class="slide">
+
     <p>Home content</p>
     <p>v 1.0.1</p>
+
     </section>
     <section id="studies" class="slide">Studies content</section>
-    <section id="contact" class="slide">Contact content</section>
+    
+    <section id="contact" class="slide">
+      
+      <h1 class="contact-title"></h1>
+      <div class="contact-items"></div>
+      <script type="module" src="./contact/contact.js"></script>
+
+    </section>
   </div>
   
 
