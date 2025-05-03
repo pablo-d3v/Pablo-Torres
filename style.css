@@ -13,15 +13,17 @@ body, html {
 }
 
 body {
+  width: 100%;
   background-color: var(--background-color);
   font-family: Arial, sans-serif;
-  margin: 20px; /* Elimina márgenes por defecto */
-  padding: 0; /* Elimina padding por defecto */
   display: flex;
   flex-direction: column;
 }
 
 /* hero */
+.hero{
+  margin: 20px;
+}
 .hero h1 {
   color: var(--accent-color);
   font-size: var(--title-size);
@@ -40,13 +42,12 @@ body {
 .slider {
   display: flex;
   transition: transform 0.5s ease-in-out;
-  width: 300vw; /* 3 secciones */
+  width: 300vw;
 }
 
 .slide {
-  flex: 0 0 100vw;
-  height: 100vh;
-  overflow-y: auto;
+  width: 100vw; /* Cada slide ocupa 100% del viewport */
+  flex-shrink: 0;
 }
 
 /* buttons */
