@@ -8,6 +8,9 @@
 
 body, html {
   height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 body {
@@ -38,6 +41,21 @@ body {
 .hero p{
   color: var(--secondary-color);
   font-size: var(--subtitle-size);
+}
+
+/* Slider */
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 300vw; /* 3 secciones */
+  height: 100vh;
+}
+
+.slide {
+  flex: 0 0 100vw;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 /* buttons */
