@@ -3,31 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <title>Pablo Torres - Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="variables.css">
   <link rel="stylesheet" href="style.css">
   <script defer src="main.js"></script>
 </head>
 <body>
-
-  <!-- HERO -->
-  <section class="hero">
-    <h1 id="name"></h1>
-    <p id="role"></p>
-  </section>
-
-  <!-- BUTTON BAR -->
   <nav>
-    <ul class="button-bar">
-      <li><button id="section1" class="seccion"></button></li>
-      <li><a href="./pages/studies/studies.html"><button class="seccion" id="section2">Studies</button></a></li>
-      <li><a href="./contact/contact.html"><button id="section3" class="seccion"></button></a></li>
-    </ul>
+    <button data-target="home">Home</button>
+    <button data-target="studies">Studies</button>
+    <button data-target="contact">Contact</button>
   </nav>
 
+  <div class="slider">
+    <section id="home" class="slide">
+    <p>Home content</p>
+    <p>v 1.0.1</p>
+    </section>
+    <section id="studies" class="slide">Studies content</section>
+    <section id="contact" class="slide">Contact content</section>
+  </div>
   
-  <!-- PROJECTs -->
-  <section id="projects" class="projects-section"></section>
+
+  <script src="main.js" defer></script>
 
 </body>
 </html>

@@ -1,0 +1,133 @@
+@import url('variables.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: var(--background-color);
+  font-family: Arial, sans-serif;
+  margin: 20px; /* Elimina márgenes por defecto */
+  padding: 0; /* Elimina padding por defecto */
+  display: flex;
+  flex-direction: column;
+}
+
+/* hero */
+.hero {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;  /* Apila verticalmente */
+  justify-content: center; /* Centrado vertical */
+}
+
+.hero h1 {
+  color: var(--accent-color);
+  font-size: var(--title-size);
+  text-align: justify;
+  margin: 0;
+  font-weight: bold;
+}
+
+.hero p{
+  color: var(--secondary-color);
+  font-size: var(--subtitle-size);
+}
+
+/* buttons */
+
+.button-bar {
+  display: flex;
+  flex-direction: row;      /* Changed from column to row */
+  justify-content: center;  /* Horizontal alignment */
+  padding: 10px;
+  margin-top: 20px;
+  list-style: none;
+  background-color: var(--background-color);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.button-bar li {
+  position: relative;
+}
+
+/* Vertical separators between buttons */
+.button-bar li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  height: 60%;
+  width: 3px;
+  background-color: var(--accent-color);
+  opacity: 0.3;
+}
+
+.button-bar button {
+  background-color: var(--background-color);
+  border-radius: 15px;
+  color: var(--accent-color);
+  border: none;
+  padding: 10px 15px;
+  margin: 0 15px;
+  cursor: pointer;
+  font-size: var(--button-text-size);
+  transition: all 0.3s ease;
+  flex-shrink: 0;
+}
+
+.button-bar button:hover {
+  border-radius: 15px;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.button-bar a {
+  text-decoration: none;
+}
+
+/* Projects */
+.projects-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: var(--background-color);
+  border: 2px solid var(--accent-color);
+  border-radius: 15px;
+  margin: 15px 0;
+  padding: 15px;
+  width: 100%;
+  max-width: none; /* Remove fixed max-width */
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+  font-size: var(--Heading-3-size);
+  border-bottom: 2px solid var(--text-color);
+  display: inline-block; /* necesario para que el border se ajuste al texto */
+}
+
+.project-card img {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+}
