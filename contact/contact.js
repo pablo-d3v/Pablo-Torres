@@ -4,9 +4,6 @@ document.addEventListener('DOMContentLoaded', async () => {
       const data = await response.json();
       const contactData = data.en.contact;
       
-      // Set page title
-      document.title = `Contact - ${data.en.name}`;
-      
       // Populate content
       document.querySelector('.contact-title').textContent = contactData.title;
       
