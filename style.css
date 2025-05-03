@@ -7,10 +7,9 @@
 }
 
 body, html {
-  height: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 body {
@@ -23,13 +22,6 @@ body {
 }
 
 /* hero */
-.hero {
-  height: 100dvh;
-  display: flex;
-  flex-direction: column;  /* Apila verticalmente */
-  justify-content: center; /* Centrado vertical */
-}
-
 .hero h1 {
   color: var(--accent-color);
   font-size: var(--title-size);
@@ -49,7 +41,6 @@ body {
   display: flex;
   transition: transform 0.5s ease-in-out;
   width: 300vw; /* 3 secciones */
-  height: 100vh;
 }
 
 .slide {
@@ -59,7 +50,6 @@ body {
 }
 
 /* buttons */
-
 .button-bar {
   display: flex;
   flex-direction: row;      /* Changed from column to row */
