@@ -1,4 +1,4 @@
-import { initLightbox } from '../lightbox/lightbox.js';
+//import { initLightbox } from '../lightbox/lightbox.js';
 
 // Fetch and render project data
 function loadProjectDetails() {
@@ -7,7 +7,7 @@ function loadProjectDetails() {
     const projectSlug = urlParams.get('project');
   
     // 2. Fetch Project Data
-    fetch('../texts.json')
+    fetch('../../texts.json')
       .then(response => response.json())
       .then(data => {
         const project = data.en.projects.find(p => p.slug === projectSlug);

@@ -78,7 +78,7 @@ async function loadContent() {
           const projectCard = e.target.closest('.project-card');
           if (projectCard) {
               const slug = projectCard.dataset.slug;
-              window.location.href = `projects/project-template.html?project=${slug}`;
+              window.location.href = `./pages/projects/project-template.html?project=${slug}`;
           }
       });
 

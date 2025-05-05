@@ -40,7 +40,7 @@
   }
   
   .study-item::before {
-    content: attr(data-icon);
+    content: "🎓";
     position: absolute;
     top: 1.5rem;
     font-size: 1.5rem;
@@ -68,21 +68,4 @@
     color: var(--secondary-color);
     font-size: var(--regular-text-size);
     margin-bottom: 1rem;
-  }
-  
-  @media (max-width: 768px) {
-    .timeline::before {
-      left: 1rem;
-    }
-    
-    .study-item {
-      width: calc(100% - 2rem);
-      left: 0 !important;
-      margin-left: 2rem;
-    }
-  
-    .study-item::before {
-      left: -2.5rem !important;
-      right: auto !important;
-    }
   }
