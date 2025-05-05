@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', async () => {
     try {
-      const response = await fetch('../texts.json');
+      const response = await fetch('texts.json');
       const data = await response.json();
       const contactData = data.en.contact;
       
