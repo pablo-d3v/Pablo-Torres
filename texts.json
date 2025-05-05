@@ -18,7 +18,7 @@
           "data": ["JSON"],
           "design": ["Figma"]
         },
-        "preview" :"../../images/bw/bw_001.png",
+        "preview" :"Pablo-Torres/images/ara/ara_001.png",
         "images": [
           "../../images/bw/rw_001.png",
           "../../images/bw/rw_002.png",
@@ -44,7 +44,7 @@
           "architecture": ["MVVM"],
           "practices": ["Agile", "Scrum"]
         },
-        "preview" :"../../images/ara/ara_001.png",
+        "preview" :"../images/ara/ara_001.png",
         "images": [
           "../../images/ara/ara_002.png",
           "../../images/ara/ara_003.png",
@@ -67,7 +67,7 @@
           "architecture": ["MVC"],
           "practices": ["Agile", "Playtesting"]
         },
-        "preview" :"../../images/uev/uev_001.png",
+        "preview" :"../images/uev/uev_001.png",
         "images": [
           "../../images/uev/uev_002.png",
           "../../images/uev/uev_003.png",
