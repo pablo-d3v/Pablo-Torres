@@ -18,13 +18,13 @@
           "data": ["JSON"],
           "design": ["Figma"]
         },
-        "preview" :"Pablo-Torres/images/ara/ara_001.png",
+        "preview" :"../images/bw/bw_001.png",
         "images": [
-          "../../images/bw/rw_001.png",
-          "../../images/bw/rw_002.png",
-          "../../images/bw/rw_003.png",
-          "../../images/bw/rw_004.png",
-          "../../images/bw/rw_005.png"
+          "../images/bw/rw_001.png",
+          "../images/bw/rw_002.png",
+          "../images/bw/rw_003.png",
+          "images/bw/rw_004.png",
+          "images/bw/rw_005.png"
         ],
         "link": "project1.html"
       },
@@ -44,11 +44,11 @@
           "architecture": ["MVVM"],
           "practices": ["Agile", "Scrum"]
         },
-        "preview" :"../images/ara/ara_001.png",
+        "preview" :"images/ara/ara_001.png",
         "images": [
-          "../../images/ara/ara_002.png",
-          "../../images/ara/ara_003.png",
-          "../../images/ara/ara_004.png"
+          "images/ara/ara_002.png",
+          "images/ara/ara_003.png",
+          "images/ara/ara_004.png"
         ],
         "link": "project1.html"
       },
@@ -67,13 +67,13 @@
           "architecture": ["MVC"],
           "practices": ["Agile", "Playtesting"]
         },
-        "preview" :"../images/uev/uev_001.png",
+        "preview" :"images/uev/uev_001.png",
         "images": [
-          "../../images/uev/uev_002.png",
-          "../../images/uev/uev_003.png",
-          "../../images/uev/uev_004.png",
-          "../../images/uev/uev_005.png",
-          "../../images/uev/uev_006.png"
+          "images/uev/uev_002.png",
+          "images/uev/uev_003.png",
+          "images/uev/uev_004.png",
+          "images/uev/uev_005.png",
+          "images/uev/uev_006.png"
         ],
         "link": "project2.html"
       }
