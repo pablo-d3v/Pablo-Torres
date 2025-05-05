@@ -18,11 +18,11 @@
           "data": ["JSON"],
           "design": ["Figma"]
         },
-        "preview" :"../images/bw/bw_001.png",
+        "preview" :"images/bw/bw_001.png",
         "images": [
-          "../images/bw/rw_001.png",
-          "../images/bw/rw_002.png",
-          "../images/bw/rw_003.png",
+          "images/bw/rw_001.png",
+          "images/bw/rw_002.png",
+          "images/bw/rw_003.png",
           "images/bw/rw_004.png",
           "images/bw/rw_005.png"
         ],
