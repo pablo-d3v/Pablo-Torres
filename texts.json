@@ -5,16 +5,6 @@
     "sections": ["Projects", "Studies", "Contact"],
     "projects": [
       {
-        "slug": "vr-kinetics",
-        "title": "VR Kinetics",
-        "preview" :"images/Space_Code.png"
-      },
-      {
-        "slug": "aws-call-center",
-        "title": "AWS Call Center",
-        "preview" :"images/Space_Code.png"
-      },
-      {
         "slug": "business-website",
         "title": "Business Website",
         "my_role":"UX Design, Frontend Development, Backend Development, Full-Stack Integration",
